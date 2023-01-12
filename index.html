@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Counter</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
+  <div class="container">
+    <div class="heading"><h1>Counter</h1></div>
+    <div class="count"><p id="count">0</p></div>
+    <button class="btn" id="btn1" onclick="decreascount()">Decrease</button>
+    <button class="btn" id="btn2" onclick="resetcount()">Reset</button>
+    <button class="btn" id="btn3" onclick="increasecount()">Increase</button>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
