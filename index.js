@@ -1,5 +1,5 @@
 const count = document.getElementById("count");
-leta=0;
+let a=0;
 function resetcount(){
   a=0;
   count.innerText=a;
